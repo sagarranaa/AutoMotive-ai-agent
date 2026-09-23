@@ -1,0 +1,18 @@
+flowchart TD
+    UI["React chat and CRM panel"] --> API["Express API and session lock"]
+    API --> STATE["SQLite history and pending actions"]
+    API --> LLM["Groq intent and tool selection"]
+    LLM --> TOOLS["Validated read and proposal tools"]
+    TOOLS --> CRM["Mock or Zoho CRM adapter"]
+    CRM --> LLM
+    TOOLS --> REVIEW["Server-held review card"]
+    REVIEW --> UI
+    UI --> CONFIRM["Confirm action endpoint"]
+    CONFIRM --> OPS["Operation ledger and CRM write"]
+    OPS --> CRM
+    CRM --> OAUTH["OAuth access token refresh"]
+    ZOHO["Zoho dashboard edit"] --> HOOK["Authenticated notification callback"]
+    HOOK --> SSE["Session-scoped invalidation event"]
+    SSE --> UI
+    UI --> READ["Fresh known-record snapshot"]
+    READ --> CRM

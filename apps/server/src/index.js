@@ -1,0 +1,10 @@
+import { getConfig } from './config.js';
+import { Store } from './store.js';
+import { MockCRM } from './crm/mock.js';
+import { ZohoCRM } from './crm/zoho.js';
+import { Groq } from './agent/groq.js';
+import { createApp } from './app.js';
+const config=getConfig(),store=new Store(config.dbPath),crm=config.crmMode==='zoho'?new ZohoCRM(config):new MockCRM(store);
+const app=createApp({config,store,crm,provider:config.llmMode==='groq'?new Groq(config):null});
+const server=app.listen(config.port,config.host,()=>console.log(`Automotive agent: http://${config.host}:${config.port} · CRM ${config.crmMode} · AI ${config.llmMode}`));
+for(const signal of ['SIGINT','SIGTERM'])process.on(signal,()=>{app.locals.closeEvents();server.close(()=>{store.close();process.exit(0);});setTimeout(()=>process.exit(1),5000).unref();});

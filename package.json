@@ -1,0 +1,12 @@
+{
+  "name": "automotive-ai-agent", "version": "1.0.0", "private": true,
+  "type": "module", "workspaces": ["apps/server", "apps/web"],
+  "engines": {"node": ">=22.13.0"},
+  "scripts": {
+    "setup": "node scripts/setup.mjs", "dev": "node scripts/dev.mjs",
+    "build": "npm run build -w apps/web", "start": "npm start -w apps/server",
+    "test": "npm test -w apps/server", "zoho:check": "node --env-file=.env scripts/zoho.mjs check",
+    "zoho:seed": "node --env-file=.env scripts/zoho.mjs seed",
+    "zoho:watch": "node --env-file=.env scripts/zoho.mjs watch"
+  }
+}
