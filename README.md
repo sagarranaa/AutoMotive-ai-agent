@@ -639,3 +639,29 @@ Confirmed writes have persistent operation IDs, and Leads/Cases include a CRM re
 
 Notifications do not rewrite historical chat text: the CRM panel refreshes, and the next status question re-reads CRM. The app stores at most 160 conversation messages and tracks at most 12 CRM references per conversation. Test-drive and service scheduling are requests, not calendar-slot reservations. There is no payment processor, voice interface, or custom Bookings module; bookings are represented by confirmed Deals.
 
+<img width="1920" height="1080" alt="Screenshot from 2026-09-23 10-44-54" src="https://github.com/user-attachments/assets/5406fcd3-4d0e-496a-9418-18045e9757b9" />
+<img width="1920" height="1080" alt="Screenshot from 2026-09-23 10-45-19" src="https://github.com/user-attachments/assets/7206b1bf-1583-49c5-b661-96a741186fd5" />
+<img width="1920" height="1080" alt="Screenshot from 2026-09-23 10-46-36" src="https://github.com/user-attachments/assets/a9f102f5-f13d-4878-9f93-c329e5448991" />
+<img width="1920" height="1080" alt="Screenshot from 2026-09-23 10-46-52" src="https://github.com/user-attachments/assets/da957166-66d4-414b-b737-631172ec9b46" />
+<img width="1920" height="1080" alt="Screenshot from 2026-09-23 10-48-20" src="https://github.com/user-attachments/assets/fc5d7ca4-db97-4b50-a25b-be6a9aad964d" />
+<img width="1920" height="1080" alt="Screenshot from 2026-09-23 10-49-26" src="https://github.com/user-attachments/assets/cb9ad8c1-2e77-4442-91d7-1a9a0c46b38e" />
+<img width="1920" height="1080" alt="Screenshot from 2026-09-23 10-59-42" src="https://github.com/user-attachments/assets/f3afc6e4-47da-4f0a-8c18-b0db7ef84c6e" />
+<img width="1920" height="1080" alt="Screenshot from 2026-09-23 11-00-01" src="https://github.com/user-attachments/assets/7ec46570-fb27-43ca-896c-0442f5f2de1c" />
+<img width="1920" height="1080" alt="Screenshot from 2026-09-23 11-00-38" src="https://github.com/user-attachments/assets/82db14e2-39cb-4704-a56b-fa8dc20de138" />
+<img width="1920" height="1080" alt="Screenshot from 2026-09-23 11-06-46" src="https://github.com/user-attachments/assets/21a9caf1-e671-4bb5-a828-f43ad9f776f6" />
+<img width="1920" height="1080" alt="Screenshot from 2026-09-23 11-17-32" src="https://github.com/user-attachments/assets/f68d6a87-c332-417f-bc68-76e1ca9eb542" />
+<img width="1920" height="1080" alt="Screenshot from 2026-09-23 11-17-55" src="https://github.com/user-attachments/assets/1b7d72e7-d39c-4445-9439-d08c1cdf2fd4" />
+<img width="1920" height="1080" alt="Screenshot from 2026-09-23 11-24-58" src="https://github.com/user-attachments/assets/0c0defa7-f9aa-4561-a9cb-3501e926e6ec" />
+
+
+
+
+
+
+
+
+
+
+
+
+
